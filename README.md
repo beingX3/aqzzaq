@@ -1,9 +1,5 @@
 # RUST API SERVER
 
-![Logo](./assets/logo.png)
-
-[![License](https://img.shields.io/github/license/sonntuet1997/rust-web-api-microservice-template)](https://github.com/sonntuet1997/rust-web-api-microservice-template/blob/master/LICENSE)
-[![Continuous Integration](https://github.com/sonntuet1997/rust-web-api-microservice-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/sonntuet1997/rust-web-api-microservice-template/actions/workflows/ci.yaml)
 
 ## Introduction
 
@@ -25,20 +21,6 @@ systems and architectures. You are welcome to use the automated binaries or buil
 **Contributions and PRs:**
 If you submit a pull request, please note that images are not built by default. A maintainer will need to retag them for the build
 process to take place.
-
-### Docker
-
-1. Pull the docker image
-
-```commit to only the main branch
-docker pull thuan2172001/rust-server:latest
-```
-
-2. Run the image
-
-```
-docker run -d -p 8000:8000 thuan2172001/rust-server:latest
-```
 
 ## How To Run
 
@@ -119,48 +101,6 @@ Make sure to set these environment variables according to your needs before runn
 2. **Enable Dependabot Alerts:**
 
    - In repository Insights, enable "Dependabot alerts" and "Security & Analysis".
-
-## Checklist
-
-### Basic Functionalities
-
-Ensure comprehension and implementation of concepts outlined in the book with attention to detail. Key considerations
-include:
-
-1. [x] Incorporating descriptive comments to enhance code readability.
-2. [x] Implementing tracing mechanisms for effective debugging.
-3. [x] Writing comprehensive test cases to validate functionality.
-   1. [x] Using https://testcontainers.com for integration tests.
-4. [x] Utilizing version control with [Git](https://git-scm.com/) for code management.
-5. [x] Structuring code in a logical and maintainable manner.
-6. [x] Containerizing the application using [Docker](https://www.docker.com/) for portability and scalability.
-
-### Advanced Functionalities
-
-Demonstrate proficiency in advanced development practices including:
-
-1. [x] CLI Interface.
-   1. [x] Embed Git Info, Config Tool.
-2. [x] Load Configuration from a File.
-3. [x] Multiple Implementations.
-4. [x] Advanced Tracing.
-5. [x] CI/CD.
-   1. [x] Publish binary artifacts in [Github](https://github.com/).
-   2. [x] Push Docker images.
-   3. [x] Build pipeline on amd arch.
-   4. [ ] Build pipeline on arm arch.
-6. [x] Docker Image Optimization.
-7. [x] Load test using [K6](https://k6.io/).
-   1. [x] Use [Flamegraph](https://github.com/flamegraph-rs/flamegraph) for profiling.
-   2. [ ] [Better UI](https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454edb3a2e3).
-8. [ ] Comprehensive DB query filter for list().
-9. [ ] Optimize release binary performance.
-10. [ ] Docs on how to use this repo, the design behind the scene.
-11. [x] Dependabot
-    1. [x] Update Rust.
-    2. [x] Update Docker image.
-
-Feel free to explore and expand upon these functionalities as needed for your project. Happy coding!
 
 ## Load Testing and Profiling
 
